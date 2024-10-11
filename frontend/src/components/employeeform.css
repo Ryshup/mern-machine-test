@@ -1,0 +1,51 @@
+.employee-form-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    background-color: #FFFF00;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label {
+    flex-basis: 30%;
+    font-weight: bold;
+  }
+  
+  .form-row input, .form-row select {
+    flex-basis: 65%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-row input[type="radio"], .form-row input[type="checkbox"] {
+    flex-basis: auto;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
